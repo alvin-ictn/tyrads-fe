@@ -1,0 +1,52 @@
+.legend {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  top: -60px;
+  width: 100%;
+  align-items: center;
+}
+
+.legend .percentage {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.legend .label {
+  color: #d1d2d4;
+}
+
+.progress-wrapper {
+  display: flex;
+  gap: 40px;
+  place-content: center;
+}
+
+.done-indicator {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #535ceb;
+}
+
+.inprogress-indicator {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #ffa512;
+}
+
+.todo-indicator {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #eb6252;
+}
+
+.indicator {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
