@@ -67,7 +67,6 @@ export default function Analytics() {
           paddingAngle={-40}
           dataKey="value"
         >
-          <Text>faasdas</Text>
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={entry.color} />
           ))}
